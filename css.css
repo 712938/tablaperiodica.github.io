@@ -1,0 +1,136 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    width: 70%;
+    font-size: 17px;
+    color: #A7A7A7;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000 ;
+}
+
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: grey;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+
+h2{
+color: gray;
+}
+
+
+
+
+
+
+.pie{
+    background-color: #000000 ;
+   
+}
+
+.logoo{
+   display: flex; 
+   align-items: center;
+   gap: 10px;
+}
+span{
+    font-size: 23px;
+}
+.fb{
+    background-color: rgb(49, 49, 236);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.tw{
+    background-color: rgb(49, 161, 236);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.in{
+    background-color: rgb(158, 0, 163);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.yt{
+    background-color: rgb(226, 34, 34);
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+}
+.heder{
+    display: flex;
+    justify-content:space-between ; 
+    padding: 20px;
+    align-items: center;
+}
+.parrafopie{
+    font-size: 20px;
+    color:rgb(245, 208, 111);
+}
+.secion{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.secion div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color:gray;
+    padding: 10px 0;
+}
+a{
+    color:gray;
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+background: none;
+border: solid 2px grey;
+border-radius: 10px;
+padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+    background: white;
+    border-radius: 10px;
+    color: gray;
+    font-size: 18px;
+}
+.derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background:  #11181f  ;
+    color:gray;
+}
+
+
+
+
